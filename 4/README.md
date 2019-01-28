@@ -1,5 +1,5 @@
-Sparky Core
-This meta package will install SparkyLinux base components.
+Sparky 4 Core
+This meta package will install SparkyLinux 4 base components.
 
 Copyright (C) 2015-2019 Paweł Pijanowski
 
@@ -18,7 +18,32 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
-sparky-core-x86 | sparky-core-arm
+base-files (>= 9.0)
+base-files (<< 10)
+libc6 (<= 2.27)
+sparky-apt (>= 20190127)
+sparky4-apt
+sparky-artwork
+ultra-flat-icons
+sparky-info
+sparky-keyring
+sparky-remsu
+sparky5-theme | numix-theme
+
+Recommends:
+--------------
+sparky-grub-theme
+sparky-plymouth
+
+Conflicts:
+---------------
+sparky-core-x86
+sparky-core-arm
+
+Replaces:
+----------------
+sparky-core-x86
+sparky-core-arm
 
 Install:
 -------------
