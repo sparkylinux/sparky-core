@@ -32,18 +32,20 @@ sparky5-theme
 
 Recommends:
 -------------
-sparky-grub-theme
+sparky-grub-theme (no armhf)
 sparky-plymouth
 
 Conflicts:
 -------------
 sparky-core-x86
 sparky-core-arm
+sparky-core (<= 5.20190725)
 
 Replaces:
 --------------
 sparky-core-x86
 sparky-core-arm
+sparky-core (<= 5.20190725)
 
 Install:
 -------------
