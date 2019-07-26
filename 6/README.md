@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
-base-files (>= 10~sparky0)
+base-files (>= 11~sparky0)
 libc6 (>= 2.28)
 sparky-apt (>= 20190127)
 sparky6-apt
@@ -31,18 +31,20 @@ sparky5-theme | sparky6-theme
 
 Recommends:
 -------------
-sparky-grub-theme
+sparky-grub-theme (no armhf)
 sparky-plymouth
 
 Conflicts:
 -------------
 sparky-core-x86
 sparky-core-arm
+sparky-core (<= 6.20190725)
 
 Replaces:
 --------------
 sparky-core-x86
 sparky-core-arm
+sparky-core (<= 6.20190725)
 
 Install:
 -------------
