@@ -1,5 +1,5 @@
-Sparky 6 Core
-This meta package will install SparkyLinux 6 base components.
+Sparky Core
+This meta package will install SparkyLinux base components.
 
 Copyright (C) 2019 Paweł Pijanowski
 
@@ -15,37 +15,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Dependencies:
--------------
-base-files (>= 11~sparky0)
-libc6 (>= 2.28)
-papirus-icon-theme
-sparky-apt (>= 20190127)
-sparky6-apt
-sparky-artwork
-sparky-info
-sparky-keyring
-sparky-remsu
-sparky6-theme
-
-Recommends:
--------------
-sparky-grub-theme (no armhf)
-sparky-plymouth
-
-Conflicts:
--------------
-sparky-core-x86
-sparky-core-arm
-sparky-core (<= 6.20190725)
-
-Replaces:
---------------
-sparky-core-x86
-sparky-core-arm
-sparky-core (<= 6.20190725)
-
-Install:
--------------
-This is a meta package, so install dependencies only.
