@@ -20,7 +20,6 @@ Dependencies:
 -------------
 base-files (>= 11~sparky0)
 libc6 (>= 2.28)
-papirus-icon-theme
 sparky-apt (>= 20190127)
 sparky6-apt
 sparky-artwork
@@ -28,6 +27,7 @@ sparky-info
 sparky-keyring
 sparky-remsu
 sparky6-theme
+tela-icon-theme
 
 Recommends:
 -------------
