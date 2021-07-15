@@ -1,7 +1,7 @@
 Sparky 6 Core
 This meta package will install SparkyLinux 6 base components.
 
-Copyright (C) 2019 Paweł Pijanowski
+Copyright (C) 2019-2021 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,8 +20,7 @@ Dependencies:
 -------------
 base-files (>= 11~sparky0)
 libc6 (>= 2.28)
-sparky-apt (>= 20190127)
-sparky6-apt
+sparky-apt (>= 20210715~sparky6~0)
 sparky-artwork
 sparky-info
 sparky-keyring
